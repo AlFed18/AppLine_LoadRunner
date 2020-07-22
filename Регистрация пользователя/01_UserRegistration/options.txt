@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\AlFed\Documents\VuGen\Scripts\01_UserRegistration
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\alfed\documents\vugen\scripts\01_userregistration\\logfile.log
+c:\users\alfed\documents\vugen\scripts\01_userregistration\\combined_01_UserRegistration.c
+c:\users\alfed\documents\vugen\scripts\01_userregistration\\pre_cci.c
