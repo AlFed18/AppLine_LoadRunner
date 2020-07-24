@@ -1,0 +1,3 @@
+"advanceDiscount=0&depart=Frankfurt&departDate=07%2F20%2F2020&arrive=Paris&returnDate=07%2F21%2"
+"F2020&numPassengers=1&seatPref=Aisle&seatType=Business&findFlights.x=69&findFlights.y=9&.cgifi"
+"elds=roundtrip&.cgifields=seatType&.cgifields=seatPref"

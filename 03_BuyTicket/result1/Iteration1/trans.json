@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "open_site",
+        "rawStartTime": 1595599030434,
+        "rawEndTime": 1595599030896
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1595599030899,
+        "rawEndTime": 1595599031209
+    },
+    {
+        "transactionName": "click_flights",
+        "rawStartTime": 1595599031212,
+        "rawEndTime": 1595599031502
+    },
+    {
+        "transactionName": "insert_flight_info",
+        "rawStartTime": 1595599031504,
+        "rawEndTime": 1595599031700
+    },
+    {
+        "transactionName": "03_BuyTicket",
+        "rawStartTime": 1595599030432,
+        "rawEndTime": 1595599031700
+    }
+]

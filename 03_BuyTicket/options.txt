@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\AlFed\Documents\VuGen\Scripts\03_BuyTicket
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\alfed\documents\vugen\scripts\03_buyticket\\logfile.log
+c:\users\alfed\documents\vugen\scripts\03_buyticket\\combined_03_BuyTicket.c
+c:\users\alfed\documents\vugen\scripts\03_buyticket\\pre_cci.c
