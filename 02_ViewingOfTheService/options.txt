@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\AlFed\Documents\VuGen\Scripts\02_ViewingOfTheService
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\alfed\documents\vugen\scripts\02_viewingoftheservice\\logfile.log
+c:\users\alfed\documents\vugen\scripts\02_viewingoftheservice\\combined_02_ViewingOfTheService.c
+c:\users\alfed\documents\vugen\scripts\02_viewingoftheservice\\pre_cci.c
