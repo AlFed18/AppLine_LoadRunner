@@ -2669,6 +2669,7 @@ Action()
 				"LAST");
 		
 		lr_end_transaction("ClickSignUp",2);
+		
 	
 			lr_start_transaction("CreateNewProfile");
 		

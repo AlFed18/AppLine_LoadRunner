@@ -36,11 +36,14 @@ Action()
 				LAST);
 	
 		lr_end_transaction("OpenSite", LR_AUTO);
+		
+		
+		lr_think_time(5);
 
 		
 		/* Registration */
 	
-		lr_start_transaction("ClickSignUp");
+		lr_start_transaction("Click_SignUp");
 	
 			web_add_auto_header("Sec-Fetch-Dest", 
 				"frame");
@@ -51,8 +54,7 @@ Action()
 		
 			web_add_auto_header("Sec-Fetch-Site", 
 				"same-origin");
-		
-			lr_think_time(21);
+			
 			
 			web_reg_find("Text/IC=User Information",
 		LAST);
@@ -68,9 +70,13 @@ Action()
 				"Mode=HTML", 
 				LAST);
 		
-		lr_end_transaction("ClickSignUp",LR_AUTO);
+		lr_end_transaction("Click_SignUp",LR_AUTO);
+		
+		
+		lr_think_time(5);
+		
 	
-			lr_start_transaction("CreateNewProfile");
+		lr_start_transaction("CreateNewProfile");
 		
 			web_add_header("Origin", 
 				"http://localhost:1080");
@@ -80,8 +86,7 @@ Action()
 		
 			web_add_auto_header("Upgrade-Insecure-Requests", 
 				"1");
-		
-			lr_think_time(12);
+			
 			
 //			web_reg_find("Text/IC=Welcome to Web Tours",
 //		LAST);
@@ -108,15 +113,17 @@ Action()
 				LAST);
 		
 		lr_end_transaction("CreateNewProfile",LR_AUTO);
+		
+		
+		lr_think_time(5);
+		
 	
-		lr_start_transaction("next_page");
+		lr_start_transaction("nextPage");
 	
 			web_revert_auto_header("Sec-Fetch-User");
 		
 			web_revert_auto_header("Upgrade-Insecure-Requests");
-		
-			lr_think_time(28);
-			
+					
 			
 			web_reg_find("Text/IC= User has returned to the home page",
 		LAST);
@@ -132,9 +139,14 @@ Action()
 				"Mode=HTML", 
 				LAST);
 		
-		lr_end_transaction("next_page",LR_AUTO);
+		lr_end_transaction("nextPage",LR_AUTO);
+		
+		
+		lr_think_time(5);
+		
+		
 	
-		lr_start_transaction("logout");
+		lr_start_transaction("Logout");
 	
 			web_add_header("Sec-Fetch-User", 
 				"?1");
@@ -142,7 +154,7 @@ Action()
 			web_add_header("Upgrade-Insecure-Requests", 
 				"1");
 		
-			lr_think_time(52);
+			
 			
 			web_reg_find("Text/IC=A Session ID has been created",
 		LAST);
@@ -157,7 +169,7 @@ Action()
 				"Mode=HTML", 
 				LAST);
 	
-		lr_end_transaction("logout",LR_AUTO);
+		lr_end_transaction("Logout",LR_AUTO);
 	
 	lr_end_transaction("01_UserRegistration", LR_AUTO);
 
