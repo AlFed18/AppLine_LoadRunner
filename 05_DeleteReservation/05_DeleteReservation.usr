@@ -1,7 +1,7 @@
 [General]
 Type=Multi
 DefaultCfg=default.cfg
-ParameterFile=
+ParameterFile=05_DeleteReservation.prm
 GlobalParameterFile=
 NewFunctionHeader=1
 RunType=cci
@@ -53,7 +53,7 @@ vuser_end=cci
 [TransactionsOrder]
 Order="05_DeleteReservation__*delimiter*__OpenSite__*delimiter*__Login__*delimiter*__Click_Itinerary__*delimiter*__DeleteReservation__*delimiter*__Logout"
 [StateManagement]
-LastReplayStatus=2
+LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
