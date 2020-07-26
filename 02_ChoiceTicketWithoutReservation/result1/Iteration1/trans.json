@@ -1,0 +1,42 @@
+[
+    {
+        "transactionName": "OpenSite",
+        "rawStartTime": 1595660507876,
+        "rawEndTime": 1595660508283
+    },
+    {
+        "transactionName": "Click_SignUp",
+        "rawStartTime": 1595660508287,
+        "rawEndTime": 1595660508569
+    },
+    {
+        "transactionName": "CreateNewProfile",
+        "rawStartTime": 1595660508574,
+        "rawEndTime": 1595660508813
+    },
+    {
+        "transactionName": "next_page",
+        "rawStartTime": 1595660508818,
+        "rawEndTime": 1595660509151
+    },
+    {
+        "transactionName": "Click_Flights",
+        "rawStartTime": 1595660509155,
+        "rawEndTime": 1595660509451
+    },
+    {
+        "transactionName": "Insert_FlightInfo",
+        "rawStartTime": 1595660509456,
+        "rawEndTime": 1595660509616
+    },
+    {
+        "transactionName": "ChooseFlight",
+        "rawStartTime": 1595660509622,
+        "rawEndTime": 1595660509785
+    },
+    {
+        "transactionName": "02_ChoiceTicketWithoutReservation",
+        "rawStartTime": 1595660507874,
+        "rawEndTime": 1595660509787
+    }
+]

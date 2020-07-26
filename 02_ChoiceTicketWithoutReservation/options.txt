@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\AlFed\Documents\VuGen\Scripts\02_ChoiceTicketWithoutReservation
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\alfed\documents\vugen\scripts\02_choiceticketwithoutreservation\\logfile.log
+c:\users\alfed\documents\vugen\scripts\02_choiceticketwithoutreservation\\combined_02_ChoiceTicketWithoutReservation.c
+c:\users\alfed\documents\vugen\scripts\02_choiceticketwithoutreservation\\pre_cci.c
