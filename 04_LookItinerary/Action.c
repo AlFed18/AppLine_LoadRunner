@@ -20,8 +20,38 @@ Action()
 		
 			web_add_auto_header("Upgrade-Insecure-Requests", 
 				"1");
+			
+			
+			web_reg_find("Text/IC=Welcome to the Web Tours site",
+		LAST);
+
+			
 		
-			web_url("WebTours", 
+		/*Correlation comment - Do not change!  Original value='129255.629566626zztifizpttfiDDDDDQiQVpfVizHf' Name ='userSession' Type ='ResponseBased'*/
+//	web_reg_save_param_attrib(
+//		"ParamName=userSession",
+//		"TagName=input",
+//		"Extract=value",
+//		"Name=userSession",
+//		"Type=hidden",
+//		SEARCH_FILTERS,
+//		"IgnoreRedirections=No",
+//		"RequestUrl=*/nav.pl*",
+//		LAST);
+		
+		
+	web_reg_save_param_ex(
+		"ParamName=userSession",
+		"LB=name=\"userSession\" value=\"",
+		"RB=\"/>",
+		"Ordinal=1",
+		SEARCH_FILTERS,
+		LAST);
+
+	
+	
+
+	web_url("WebTours", 
 				"URL=http://localhost:1080/WebTours/", 
 				"TargetFrame=", 
 				"Resource=0", 
@@ -32,6 +62,9 @@ Action()
 				LAST);
 		
 		lr_end_transaction("OpenSite", LR_AUTO);
+		
+		
+		lr_think_time(5);
 
 	
 		lr_start_transaction("Login");
@@ -48,30 +81,33 @@ Action()
 		
 			web_add_auto_header("Sec-Fetch-Site", 
 				"same-origin");
+			
 		
-			lr_think_time(20);
+			web_reg_find("Text/IC=User password was correct",
+		LAST);
+
 		
-			web_submit_data("login.pl", 
-				"Action=http://localhost:1080/cgi-bin/login.pl", 
-				"Method=POST", 
-				"TargetFrame=body", 
-				"RecContentType=text/html", 
-				"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home", 
-				"Snapshot=t2.inf", 
-				"Mode=HTML", 
-				ITEMDATA, 
-				"Name=userSession", "Value=129255.629566626zztifizpttfiDDDDDQiQVpfVizHf", ENDITEM, 
-				"Name=username", "Value=gogi", ENDITEM, 
-				"Name=password", "Value=qwerty", ENDITEM, 
-				"Name=login.x", "Value=51", ENDITEM, 
-				"Name=login.y", "Value=6", ENDITEM, 
-				"Name=JSFormSubmit", "Value=off", ENDITEM, 
-				LAST);
+			web_submit_data("login.pl",
+		"Action=http://localhost:1080/cgi-bin/login.pl",
+		"Method=POST",
+		"TargetFrame=body",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home",
+		"Snapshot=t2.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=userSession", "Value={userSession}", ENDITEM,
+		"Name=username", "Value={login}", ENDITEM,
+		"Name=password", "Value={password}", ENDITEM,
+		"Name=login.x", "Value=51", ENDITEM,
+		"Name=login.y", "Value=6", ENDITEM,
+		"Name=JSFormSubmit", "Value=off", ENDITEM,
+		LAST);
 	
 		lr_end_transaction("Login",LR_AUTO);
 		
 		
-		
+		lr_think_time(5);
 		
 	
 		lr_start_transaction("Click_Itinerary");
@@ -82,7 +118,11 @@ Action()
 			web_add_auto_header("Upgrade-Insecure-Requests", 
 				"1");
 		
-			lr_think_time(26);
+			
+			web_reg_find("Text/IC=User wants the intineraries",
+		LAST);
+
+			
 		
 			web_url("Itinerary Button", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
@@ -97,13 +137,18 @@ Action()
 		lr_end_transaction("Click_Itinerary",LR_AUTO);
 		
 		
+		lr_think_time(5);
 		
 	
 		lr_start_transaction("Click_Home");
 	
 			web_revert_auto_header("Sec-Fetch-User");
+			
+			
 		
-			lr_think_time(12);
+			web_reg_find("Text/IC=User has returned to the home page",
+		LAST);
+
 		
 			web_url("Home Button", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
