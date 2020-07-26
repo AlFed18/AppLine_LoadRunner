@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HTTPSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="8">
-  <HTTPTask id="333" hostname="localhost:1080" path="/cgi-bin/welcome.pl?signOff=1" url="http://localhost:1080/cgi-bin/welcome.pl?signOff=1" ip="127.0.0.1" port="1080" connectionId="35" origin="Primary" frame="1" startDateTime="2020-07-19T12:02:58.780+03:00" startTime="253409750" endTime="253409812">
+  <HTTPTask id="333" hostname="localhost:1080" path="/cgi-bin/welcome.pl?signOff=1" url="http://localhost:1080/cgi-bin/welcome.pl?signOff=1" ip="127.0.0.1" port="1080" connectionId="35" origin="Primary" frame="1" startDateTime="2020-07-26T10:57:24.289+03:00" startTime="253409750" endTime="253409812">
     <QueryString>
       <HTTPDataSet>
         <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
@@ -242,7 +242,7 @@
         <PacketInfo time="253409812" offset="1021" length="5" />
       </TcpPackets>
     </HTTPResponse>
-    <HTTPTask id="336" hostname="localhost:1080" path="/WebTours/home.html" url="http://localhost:1080/WebTours/home.html" ip="127.0.0.1" port="1080" connectionId="36" origin="HTML" frame="1.2" startDateTime="2020-07-19T12:02:58.905+03:00" startTime="253409843" endTime="253409843">
+    <HTTPTask id="336" hostname="localhost:1080" path="/WebTours/home.html" url="http://localhost:1080/WebTours/home.html" ip="127.0.0.1" port="1080" connectionId="36" origin="HTML" frame="1.2" startDateTime="2020-07-26T10:57:24.411+03:00" startTime="253409843" endTime="253409843">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Host" index="0">
@@ -434,7 +434,7 @@
         </TcpPackets>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="338" hostname="localhost:1080" path="/cgi-bin/nav.pl?in=home" url="http://localhost:1080/cgi-bin/nav.pl?in=home" ip="127.0.0.1" port="1080" connectionId="35" origin="HTML" frame="1.1" startDateTime="2020-07-19T12:02:58.905+03:00" startTime="253409843" endTime="253409906">
+    <HTTPTask id="338" hostname="localhost:1080" path="/cgi-bin/nav.pl?in=home" url="http://localhost:1080/cgi-bin/nav.pl?in=home" ip="127.0.0.1" port="1080" connectionId="35" origin="HTML" frame="1.1" startDateTime="2020-07-26T10:57:24.418+03:00" startTime="253409843" endTime="253409906">
       <QueryString>
         <HTTPDataSet>
           <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">

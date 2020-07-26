@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HTTPSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="7">
-  <HTTPTask id="305" hostname="localhost:1080" path="/cgi-bin/welcome.pl?page=itinerary" url="http://localhost:1080/cgi-bin/welcome.pl?page=itinerary" ip="127.0.0.1" port="1080" connectionId="32" origin="Primary" frame="1" startDateTime="2020-07-19T12:02:58.467+03:00" startTime="253356375" endTime="253356421">
+  <HTTPTask id="305" hostname="localhost:1080" path="/cgi-bin/welcome.pl?page=itinerary" url="http://localhost:1080/cgi-bin/welcome.pl?page=itinerary" ip="127.0.0.1" port="1080" connectionId="32" origin="Primary" frame="1" startDateTime="2020-07-26T10:57:24.020+03:00" startTime="253356375" endTime="253356421">
     <QueryString>
       <HTTPDataSet>
         <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
@@ -226,7 +226,7 @@
         <PacketInfo time="253356421" offset="814" length="5" />
       </TcpPackets>
     </HTTPResponse>
-    <HTTPTask id="308" hostname="localhost:1080" path="/cgi-bin/nav.pl?page=menu&amp;in=itinerary" url="http://localhost:1080/cgi-bin/nav.pl?page=menu&amp;in=itinerary" ip="127.0.0.1" port="1080" connectionId="32" origin="HTML" frame="1.1" startDateTime="2020-07-19T12:02:58.608+03:00" startTime="253356453" endTime="253356515">
+    <HTTPTask id="308" hostname="localhost:1080" path="/cgi-bin/nav.pl?page=menu&amp;in=itinerary" url="http://localhost:1080/cgi-bin/nav.pl?page=menu&amp;in=itinerary" ip="127.0.0.1" port="1080" connectionId="32" origin="HTML" frame="1.1" startDateTime="2020-07-26T10:57:24.143+03:00" startTime="253356453" endTime="253356515">
       <QueryString>
         <HTTPDataSet>
           <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
@@ -461,7 +461,7 @@
         </TcpPackets>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="318" hostname="localhost:1080" path="/WebTours/images/in_itinerary.gif" url="http://localhost:1080/WebTours/images/in_itinerary.gif" ip="127.0.0.1" port="1080" connectionId="34" origin="HTML" frame="1" startDateTime="2020-07-19T12:02:58.655+03:00" startTime="253369203" endTime="253369203">
+    <HTTPTask id="318" hostname="localhost:1080" path="/WebTours/images/in_itinerary.gif" url="http://localhost:1080/WebTours/images/in_itinerary.gif" ip="127.0.0.1" port="1080" connectionId="34" origin="HTML" frame="1" startDateTime="2020-07-26T10:57:24.176+03:00" startTime="253369203" endTime="253369203">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Host" index="0">
@@ -677,7 +677,7 @@
         </TcpPackets>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="320" hostname="localhost:1080" path="/cgi-bin/itinerary.pl" url="http://localhost:1080/cgi-bin/itinerary.pl" ip="127.0.0.1" port="1080" connectionId="33" origin="HTML" frame="1.2" startDateTime="2020-07-19T12:02:58.670+03:00" startTime="253369203" endTime="253369281">
+    <HTTPTask id="320" hostname="localhost:1080" path="/cgi-bin/itinerary.pl" url="http://localhost:1080/cgi-bin/itinerary.pl" ip="127.0.0.1" port="1080" connectionId="33" origin="HTML" frame="1.2" startDateTime="2020-07-26T10:57:24.202+03:00" startTime="253369203" endTime="253369281">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Host" index="0">
@@ -886,7 +886,7 @@
         </TcpPackets>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="323" hostname="localhost:1080" path="/WebTours/images/cancelallreservations.gif" url="http://localhost:1080/WebTours/images/cancelallreservations.gif" ip="127.0.0.1" port="1080" connectionId="34" origin="HTML" frame="1" startDateTime="2020-07-19T12:02:58.717+03:00" startTime="253369296" endTime="253369296">
+    <HTTPTask id="323" hostname="localhost:1080" path="/WebTours/images/cancelallreservations.gif" url="http://localhost:1080/WebTours/images/cancelallreservations.gif" ip="127.0.0.1" port="1080" connectionId="34" origin="HTML" frame="1" startDateTime="2020-07-26T10:57:24.242+03:00" startTime="253369296" endTime="253369296">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Host" index="0">
@@ -1102,7 +1102,7 @@
         </TcpPackets>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="325" hostname="localhost:1080" path="/WebTours/images/cancelreservation.gif" url="http://localhost:1080/WebTours/images/cancelreservation.gif" ip="127.0.0.1" port="1080" connectionId="33" origin="HTML" frame="1" startDateTime="2020-07-19T12:02:58.748+03:00" startTime="253369296" endTime="253369328">
+    <HTTPTask id="325" hostname="localhost:1080" path="/WebTours/images/cancelreservation.gif" url="http://localhost:1080/WebTours/images/cancelreservation.gif" ip="127.0.0.1" port="1080" connectionId="33" origin="HTML" frame="1" startDateTime="2020-07-26T10:57:24.267+03:00" startTime="253369296" endTime="253369328">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Host" index="0">
