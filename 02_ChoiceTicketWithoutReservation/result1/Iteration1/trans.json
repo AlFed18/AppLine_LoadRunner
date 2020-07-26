@@ -1,42 +1,42 @@
 [
     {
         "transactionName": "OpenSite",
-        "rawStartTime": 1595660507876,
-        "rawEndTime": 1595660508283
+        "rawStartTime": 1595783960384,
+        "rawEndTime": 1595783960914
     },
     {
         "transactionName": "Click_SignUp",
-        "rawStartTime": 1595660508287,
-        "rawEndTime": 1595660508569
+        "rawStartTime": 1595783960918,
+        "rawEndTime": 1595783961161
     },
     {
         "transactionName": "CreateNewProfile",
-        "rawStartTime": 1595660508574,
-        "rawEndTime": 1595660508813
+        "rawStartTime": 1595783961166,
+        "rawEndTime": 1595783961338
     },
     {
-        "transactionName": "next_page",
-        "rawStartTime": 1595660508818,
-        "rawEndTime": 1595660509151
+        "transactionName": "nextPage",
+        "rawStartTime": 1595783961342,
+        "rawEndTime": 1595783961661
     },
     {
         "transactionName": "Click_Flights",
-        "rawStartTime": 1595660509155,
-        "rawEndTime": 1595660509451
+        "rawStartTime": 1595783961665,
+        "rawEndTime": 1595783961968
     },
     {
         "transactionName": "Insert_FlightInfo",
-        "rawStartTime": 1595660509456,
-        "rawEndTime": 1595660509616
+        "rawStartTime": 1595783961972,
+        "rawEndTime": 1595783962144
     },
     {
         "transactionName": "ChooseFlight",
-        "rawStartTime": 1595660509622,
-        "rawEndTime": 1595660509785
+        "rawStartTime": 1595783962148,
+        "rawEndTime": 1595783962304
     },
     {
         "transactionName": "02_ChoiceTicketWithoutReservation",
-        "rawStartTime": 1595660507874,
-        "rawEndTime": 1595660509787
+        "rawStartTime": 1595783960382,
+        "rawEndTime": 1595783962306
     }
 ]
