@@ -1,0 +1,250 @@
+[API Trapper      (1b6c:2600)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (1918:1cd0)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      ( 378: f80)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( 378: d80)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 378: d80)] Load Network Traffic Analyzers:
+[Network Analyzer ( 378: d80)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 378: d80)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( 378: d80)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 378: d80)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( 378: d80)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( 378: d80)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 378: d80)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 378:26c8)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 173.194.73.84:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( 378:2474)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 378:2474)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Web Request      ( 378:26c8)] "GET /WebTours/"   
+[Network Analyzer ( 378:26c8)]   (Sid:  2) Client -> Server @ : 549 bytes (Service=HTTP)
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 64.233.162.94:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer ( 378:26c8)]   (Sid:  2) Server -> Client : 664 bytes  (Service=HTTP)
+[Network Analyzer ( 378:24a4)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Web Request      ( 378:26c8)] "GET /WebTours/header.html"   
+[Network Analyzer ( 378:26c8)]   (Sid:  2) Client -> Server @ : 586 bytes (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid:  2) Server -> Client : 1007 bytes  (Service=HTTP)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 378:26c8)]   (Sid:  2) Connection Terminated (by Server)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 64.233.165.139:443   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      ( 378:26c8)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer ( 378:26c8)]   (Sid:  4) Client -> Server @ : 597 bytes (Service=HTTP)
+[Network Analyzer ( 378:24a4)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 378:26c8)]   (Sid:  4) Server -> Client : 1021 bytes  (Service=HTTP)
+[Web Request      ( 378:26c8)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=84"   
+[Network Analyzer ( 378:26c8)]   (Sid:  3) Client -> Server @ : 448 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid:  3) Server -> Client : 352 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 378: 84c)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 378:26c8)]   (Sid:  4) Connection Terminated (by Server)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Network Analyzer ( 378: 84c)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      ( 378:26c8)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer ( 378:26c8)]   (Sid:  6) Client -> Server @ : 488 bytes (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid:  6) Server -> Client : 899 bytes  (Service=HTTP)
+[Web Request      ( 378:26c8)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer ( 378:26c8)]   (Sid:  7) Client -> Server @ : 517 bytes (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid:  7) Server -> Client : 4487 bytes  (Service=HTTP)
+[Web Request      ( 378:26c8)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( 378:26c8)]   (Sid:  6) Client -> Server @ : 638 bytes (Service=HTTP)
+[Web Request      ( 378:26c8)] "GET /WebTours/home.html"   
+[Network Analyzer ( 378:26c8)]   (Sid:  7) Client -> Server @ : 634 bytes (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid:  7) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid:  6) Server -> Client : 1752 bytes  (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 378:26c8)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer ( 378:26c8)]   (Sid:  6) Client -> Server @ : 520 bytes (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid:  6) Server -> Client : 976 bytes  (Service=HTTP)
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 173.194.222.95:443   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      ( 378:26c8)] "GET /favicon.ico"   
+[Network Analyzer ( 378:26c8)]   (Sid:  6) Client -> Server @ : 489 bytes (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid:  6) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer ( 378:1bc0)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer ( 378:1bc0)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Web Request      ( 378:26c8)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIfCU35IjnBRbgwEgkN541ADhIAGgASCQ3OQUx6EgAaAA==?alt=proto"   
+[Network Analyzer ( 378:26c8)]   (Sid:  8) Client -> Server @ : 571 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer ( 378:26c8)]   (Sid:  8) Server -> Client : 638 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer ( 378:26c8)]   (Sid:  6) Connection Terminated (by Server)
+[API Trapper      ( 49c:24dc)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 64.233.161.188:5228   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( 378:156c)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer ( 378:156c)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 378:26c8)]   (Sid: 10) Client -> Server @ : 154 bytes (SSL)
+[Network Analyzer ( 378:26c8)]   (Sid: 10) Server -> Client : 1 bytes (SSL)
+[Network Analyzer ( 378:26c8)]   (Sid: 10) Server -> Client : 65 bytes (SSL)
+[Network Analyzer ( 378:26c8)]   (Sid: 10) Server -> Client : 12 bytes (SSL)
+[API Trapper      (2408:1ed0)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[User action                 ] StartTransactionEvent Login [Web Request      ( 378:26c8)] "POST /cgi-bin/login.pl"   
+[Network Analyzer ( 378:26c8)]   (Sid:  9) Client -> Server @ : 895 bytes (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid:  9) Server -> Client : 876 bytes  (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 378:26c8)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer ( 378:26c8)]   (Sid:  9) Client -> Server @ : 772 bytes (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid:  9) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 378:26c8)]   (Sid:  9) Connection Terminated (by Server)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 64.233.165.94:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer ( 378:1d30)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Web Request      ( 378:26c8)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer ( 378:26c8)]   (Sid: 12) Client -> Server @ : 767 bytes (Service=HTTP)
+[Web Request      ( 378:26c8)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer ( 378:26c8)]   (Sid: 13) Client -> Server @ : 667 bytes (Service=HTTP)
+[Network Analyzer ( 378:1d30)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 378:26c8)]   (Sid: 13) Server -> Client : 1024 bytes  (Service=HTTP)
+[Web Request      ( 378:26c8)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer ( 378:26c8)]   (Sid: 14) Client -> Server @ : 669 bytes (Service=HTTP)
+[Web Request      ( 378:26c8)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer ( 378:26c8)]   (Sid: 15) Client -> Server @ : 667 bytes (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 11) Client -> Server @ : 1136 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 14) Server -> Client : 1031 bytes  (Service=HTTP)
+[Web Request      ( 378:26c8)] "POST /service/update2/json?cup2key=10:1323721793&cup2hreq=74e1bc21a8651882dc0b9b3e620dca23683b08a3d9e15b8e9b2e691ea947fd71"   
+[Network Analyzer ( 378:26c8)]   (Sid: 11) Client -> Server @ : 5885 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 15) Server -> Client : 986 bytes  (Service=HTTP)
+[Web Request      ( 378:26c8)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer ( 378:26c8)]   (Sid: 13) Client -> Server @ : 667 bytes (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 13) Server -> Client : 1048 bytes  (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 12) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 12) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 11) Server -> Client : 1293 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 11) Server -> Client : 981 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[User action                 ] EndTransactionEvent Login [Network Analyzer ( 378:26c8)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer ( 378:26c8)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer ( 378:26c8)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer ( 378:26c8)]   (Sid: 12) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent Click_Itinerary [Web Request      ( 378:26c8)] "GET /cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer ( 378:26c8)]   (Sid: 16) Client -> Server @ : 809 bytes (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 16) Server -> Client : 814 bytes  (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 16) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 378:26c8)] "GET /cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer ( 378:26c8)]   (Sid: 16) Client -> Server @ : 794 bytes (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 16) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 16) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 378:26c8)]   (Sid: 16) Connection Terminated (by Server)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[API Trapper      ( fa4: bb0)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      ( 378:26c8)] "GET /cgi-bin/itinerary.pl"   
+[Network Analyzer ( 378:26c8)]   (Sid: 17) Client -> Server @ : 777 bytes (Service=HTTP)
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer ( 378:26c8)]   (Sid: 17) Server -> Client : 2974 bytes  (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 17) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 378:26c8)] "GET /WebTours/images/in_itinerary.gif"   
+[Network Analyzer ( 378:26c8)]   (Sid: 18) Client -> Server @ : 677 bytes (Service=HTTP)
+[Web Request      ( 378:26c8)] "GET /WebTours/images/home.gif"   
+[Network Analyzer ( 378:26c8)]   (Sid: 17) Client -> Server @ : 669 bytes (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 18) Server -> Client : 1031 bytes  (Service=HTTP)
+[Web Request      ( 378:26c8)] "GET /WebTours/images/cancelreservation.gif"   
+[Network Analyzer ( 378:26c8)]   (Sid: 18) Client -> Server @ : 665 bytes (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 18) Server -> Client : 1128 bytes  (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 17) Server -> Client : 985 bytes  (Service=HTTP)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[User action                 ] EndTransactionEvent Click_Itinerary [Network Analyzer ( 378:26c8)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer ( 378:26c8)]   (Sid: 17) Connection Terminated (by Server)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Web Request      ( 378:26c8)] "GET /WebTours/images/cancelallreservations.gif"   
+[Network Analyzer ( 378:26c8)]   (Sid: 19) Client -> Server @ : 669 bytes (Service=HTTP)
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer ( 378:26c8)]   (Sid: 19) Server -> Client : 1040 bytes  (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 19) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent Click_Home [Web Request      ( 378:26c8)] "GET /cgi-bin/welcome.pl?page=menus"   
+[Network Analyzer ( 378:26c8)]   (Sid: 20) Client -> Server @ : 810 bytes (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 20) Server -> Client : 819 bytes  (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 378:26c8)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer ( 378:26c8)]   (Sid: 20) Client -> Server @ : 785 bytes (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 20) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 378:26c8)]   (Sid: 20) Connection Terminated (by Server)
+[Net An. Warning  ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 378: d80)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 378: d80)] Address lookup for DESKTOP-9L88UT3 = 192.168.1.35
+[Network Analyzer ( 378: d80)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      ( 378:26c8)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer ( 378:26c8)]   (Sid: 21) Client -> Server @ : 780 bytes (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 21) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer ( 378:26c8)]   (Sid: 21) Server -> Client : 5 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent Click_Home [Network Analyzer ( 378:26c8)]   (Sid: 21) Connection Terminated (by Server)

@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "OpenSite",
+        "rawStartTime": 1595661023142,
+        "rawEndTime": 1595661023617
+    },
+    {
+        "transactionName": "Login",
+        "rawStartTime": 1595661023619,
+        "rawEndTime": 1595661023805
+    },
+    {
+        "transactionName": "Click_Itinerary",
+        "rawStartTime": 1595661023807,
+        "rawEndTime": 1595661024138
+    },
+    {
+        "transactionName": "Click_Home",
+        "rawStartTime": 1595661024142,
+        "rawEndTime": 1595661024461
+    },
+    {
+        "transactionName": "04_LookItinerary",
+        "rawStartTime": 1595661023141,
+        "rawEndTime": 1595661024464
+    }
+]

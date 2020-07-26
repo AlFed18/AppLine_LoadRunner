@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\AlFed\Documents\VuGen\Scripts\04_LookItinerary
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\alfed\documents\vugen\scripts\04_lookitinerary\\logfile.log
+c:\users\alfed\documents\vugen\scripts\04_lookitinerary\\combined_04_LookItinerary.c
+c:\users\alfed\documents\vugen\scripts\04_lookitinerary\\pre_cci.c
