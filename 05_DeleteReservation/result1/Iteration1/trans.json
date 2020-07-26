@@ -1,0 +1,22 @@
+[
+    {
+        "transactionName": "OpenSite",
+        "rawStartTime": 1595746217621,
+        "rawEndTime": 1595746218024
+    },
+    {
+        "transactionName": "Login",
+        "rawStartTime": 1595746218026,
+        "rawEndTime": 1595746218335
+    },
+    {
+        "transactionName": "Click_Itinerary",
+        "rawStartTime": 1595746218337,
+        "rawEndTime": 1595746218608
+    },
+    {
+        "transactionName": "05_DeleteReservation",
+        "rawStartTime": 1595746217620,
+        "rawEndTime": 1595746218608
+    }
+]

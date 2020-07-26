@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\AlFed\Documents\VuGen\Scripts\05_DeleteReservation
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\alfed\documents\vugen\scripts\05_deletereservation\\logfile.log
+c:\users\alfed\documents\vugen\scripts\05_deletereservation\\combined_05_DeleteReservation.c
+c:\users\alfed\documents\vugen\scripts\05_deletereservation\\pre_cci.c
