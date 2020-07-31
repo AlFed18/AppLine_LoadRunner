@@ -23,9 +23,7 @@ Action()
 			
 			
 			web_reg_find("Text/IC=Welcome to the Web Tours site",
-		LAST);
-
-			
+		LAST);			
 		
 		/*Correlation comment - Do not change!  Original value='129255.629566626zztifizpttfiDDDDDQiQVpfVizHf' Name ='userSession' Type ='ResponseBased'*/
 //	web_reg_save_param_attrib(
@@ -46,10 +44,7 @@ Action()
 		"RB=\"/>",
 		"Ordinal=1",
 		SEARCH_FILTERS,
-		LAST);
-
-	
-	
+		LAST);	
 
 	web_url("WebTours", 
 				"URL=http://localhost:1080/WebTours/", 
@@ -62,10 +57,8 @@ Action()
 				LAST);
 		
 		lr_end_transaction("OpenSite", LR_AUTO);
-		
-		
+				
 		lr_think_time(5);
-
 	
 		lr_start_transaction("Login");
 	
@@ -81,11 +74,9 @@ Action()
 		
 			web_add_auto_header("Sec-Fetch-Site", 
 				"same-origin");
-			
-		
+					
 			web_reg_find("Text/IC=User password was correct",
 		LAST);
-
 		
 			web_submit_data("login.pl",
 		"Action=http://localhost:1080/cgi-bin/login.pl",
@@ -105,10 +96,8 @@ Action()
 		LAST);
 	
 		lr_end_transaction("Login",LR_AUTO);
-		
-		
-		lr_think_time(5);
-		
+				
+		lr_think_time(5);		
 	
 		lr_start_transaction("Click_Itinerary");
 	
@@ -117,11 +106,9 @@ Action()
 		
 			web_add_auto_header("Upgrade-Insecure-Requests", 
 				"1");
-		
-			
+					
 			web_reg_find("Text/IC=User wants the intineraries",
 		LAST);
-
 			
 		
 			web_url("Itinerary Button", 
@@ -135,16 +122,13 @@ Action()
 				LAST);
 		
 		lr_end_transaction("Click_Itinerary",LR_AUTO);
-		
-		
+				
 		lr_think_time(5);
-		
-	
+			
 		lr_start_transaction("Click_Home");
 	
 			web_revert_auto_header("Sec-Fetch-User");
-			
-			
+						
 		
 			web_reg_find("Text/IC=User has returned to the home page",
 		LAST);
