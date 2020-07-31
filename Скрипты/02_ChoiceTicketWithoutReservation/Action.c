@@ -84,7 +84,9 @@ Action()
 			web_add_auto_header("Upgrade-Insecure-Requests", 
 				"1");
 		
-			
+			web_reg_find("Text/IC=User Information",
+		LAST);
+
 		
 			web_submit_data("login.pl", 
 				"Action=http://localhost:1080/cgi-bin/login.pl", 
@@ -174,7 +176,9 @@ Action()
 				"http://localhost:1080");
 		
 				
-				
+				web_reg_find("Text/IC=Flight Selections",
+		LAST);
+
 									
 				/*Correlation comment - Do not change!  Original value='343;673;07/26/2020' Name ='outboundFlight' Type ='ResponseBased'*/
 			web_reg_save_param_attrib(
@@ -218,6 +222,12 @@ Action()
 		
 		
 		lr_start_transaction("ChooseFlight");
+
+
+
+//		web_reg_find("Text/IC=User has returned to the search page",
+//		LAST);
+//		не получается выставить проверку для запроса ниже
 	
 		web_submit_data("reservations.pl_2",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl",

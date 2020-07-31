@@ -2679,7 +2679,9 @@ Action()
 			web_add_auto_header("Upgrade-Insecure-Requests", 
 				"1");
 		
-			
+			web_reg_find("Text/IC=User Information",
+		"LAST");
+
 		
 			web_submit_data("login.pl", 
 				"Action=http://localhost:1080/cgi-bin/login.pl", 
@@ -2768,49 +2770,56 @@ Action()
 			web_add_header("Origin", 
 				"http://localhost:1080");
 		
-		
-		
-							
-		 
-	web_reg_save_param_attrib(
-		"ParamName=outboundFlight",
-		"TagName=input",
-		"Extract=value",
-		"Name=outboundFlight",
-		"Type=radio",
-		"SEARCH_FILTERS",
-		"IgnoreRedirections=No",
+				
+				web_reg_find("Text/IC=Flight Selections",
 		"LAST");
 
-	web_submit_data("reservations.pl", 
-				"Action=http://localhost:1080/cgi-bin/reservations.pl", 
-				"Method=POST", 
-				"TargetFrame=", 
-				"RecContentType=text/html", 
-				"Referer=http://localhost:1080/cgi-bin/reservations.pl?page=welcome", 
-				"Snapshot=t6.inf", 
-				"Mode=HTML", 
-				"ITEMDATA", 
-				"Name=advanceDiscount", "Value=0", "ENDITEM", 
-				"Name=depart", "Value={departCity}", "ENDITEM", 
-				"Name=departDate", "Value={departDate}", "ENDITEM", 
-				"Name=arrive", "Value={arriveCity}", "ENDITEM", 
-				"Name=returnDate", "Value={returnDate}", "ENDITEM", 
-				"Name=numPassengers", "Value={numPassengers}", "ENDITEM", 
-				"Name=seatPref", "Value={seatPref}", "ENDITEM", 
-				"Name=seatType", "Value={seatType}", "ENDITEM", 
-				"Name=findFlights.x", "Value=39", "ENDITEM", 
-				"Name=findFlights.y", "Value=8", "ENDITEM", 
-				"Name=.cgifields", "Value=roundtrip", "ENDITEM", 
-				"Name=.cgifields", "Value=seatType", "ENDITEM", 
-				"Name=.cgifields", "Value=seatPref", "ENDITEM", 
+									
+				 
+			web_reg_save_param_attrib(
+				"ParamName=outboundFlight",
+				"TagName=input",
+				"Extract=value",
+				"Name=outboundFlight",
+				"Type=radio",
+				"SEARCH_FILTERS",
+				"IgnoreRedirections=No",
 				"LAST");
-	
+		
+			web_submit_data("reservations.pl", 
+						"Action=http://localhost:1080/cgi-bin/reservations.pl", 
+						"Method=POST", 
+						"TargetFrame=", 
+						"RecContentType=text/html", 
+						"Referer=http://localhost:1080/cgi-bin/reservations.pl?page=welcome", 
+						"Snapshot=t6.inf", 
+						"Mode=HTML", 
+						"ITEMDATA", 
+						"Name=advanceDiscount", "Value=0", "ENDITEM", 
+						"Name=depart", "Value={departCity}", "ENDITEM", 
+						"Name=departDate", "Value={departDate}", "ENDITEM", 
+						"Name=arrive", "Value={arriveCity}", "ENDITEM", 
+						"Name=returnDate", "Value={returnDate}", "ENDITEM", 
+						"Name=numPassengers", "Value={numPassengers}", "ENDITEM", 
+						"Name=seatPref", "Value={seatPref}", "ENDITEM", 
+						"Name=seatType", "Value={seatType}", "ENDITEM", 
+						"Name=findFlights.x", "Value=39", "ENDITEM", 
+						"Name=findFlights.y", "Value=8", "ENDITEM", 
+						"Name=.cgifields", "Value=roundtrip", "ENDITEM", 
+						"Name=.cgifields", "Value=seatType", "ENDITEM", 
+						"Name=.cgifields", "Value=seatPref", "ENDITEM", 
+						"LAST");
+			
 		lr_end_transaction("Insert_FlightInfo",2);
 		
-				lr_think_time(53);
 		
-			lr_start_transaction("ChooseFlight");
+		lr_think_time(5);
+		
+		
+		lr_start_transaction("ChooseFlight");
+		
+		web_reg_find("Text/IC=Web Tours Navigation Bar",
+		"LAST");
 	
 		web_submit_data("reservations.pl_2",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl",
