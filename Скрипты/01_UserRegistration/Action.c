@@ -23,7 +23,6 @@ Action()
 			
 			web_reg_find("Text/IC=A Session ID has been created",
 		LAST);
-
 		
 			web_url("WebTours", 
 				"URL=http://localhost:1080/WebTours/", 
@@ -35,11 +34,9 @@ Action()
 				"Mode=HTML", 
 				LAST);
 	
-		lr_end_transaction("OpenSite", LR_AUTO);
-		
+		lr_end_transaction("OpenSite", LR_AUTO);		
 		
 		lr_think_time(5);
-
 		
 		/* Registration */
 	
@@ -54,12 +51,10 @@ Action()
 		
 			web_add_auto_header("Sec-Fetch-Site", 
 				"same-origin");
-			
-			
+						
 			web_reg_find("Text/IC=User Information",
 		LAST);
-
-		
+	
 			web_url("sign up now", 
 				"URL=http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true", 
 				"TargetFrame=body", 
@@ -71,11 +66,9 @@ Action()
 				LAST);
 		
 		lr_end_transaction("Click_SignUp",LR_AUTO);
-		
-		
+				
 		lr_think_time(5);
-		
-	
+			
 		lr_start_transaction("CreateNewProfile");
 		
 			web_add_header("Origin", 
@@ -90,7 +83,6 @@ Action()
 			
 //			web_reg_find("Text/IC=Welcome to Web Tours",
 //		LAST);
-
 		
 			web_submit_data("login.pl", 
 				"Action=http://localhost:1080/cgi-bin/login.pl", 
@@ -113,21 +105,17 @@ Action()
 				LAST);
 		
 		lr_end_transaction("CreateNewProfile",LR_AUTO);
-		
-		
-		lr_think_time(5);
-		
+				
+		lr_think_time(5);		
 	
 		lr_start_transaction("nextPage");
 	
 			web_revert_auto_header("Sec-Fetch-User");
 		
 			web_revert_auto_header("Upgrade-Insecure-Requests");
-					
-			
+								
 			web_reg_find("Text/IC= User has returned to the home page",
 		LAST);
-
 		
 			web_url("button_next.gif", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
@@ -140,11 +128,8 @@ Action()
 				LAST);
 		
 		lr_end_transaction("nextPage",LR_AUTO);
-		
-		
-		lr_think_time(5);
-		
-		
+				
+		lr_think_time(5);		
 	
 		lr_start_transaction("Logout");
 	
@@ -153,9 +138,7 @@ Action()
 		
 			web_add_header("Upgrade-Insecure-Requests", 
 				"1");
-		
-			
-			
+							
 			web_reg_find("Text/IC=A Session ID has been created",
 		LAST);
 		

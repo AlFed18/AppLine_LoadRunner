@@ -2636,11 +2636,14 @@ Action()
 				"LAST");
 	
 		lr_end_transaction("OpenSite", 2);
+		
+		
+		lr_think_time(5);
 
 		
 		 
 	
-		lr_start_transaction("ClickSignUp");
+		lr_start_transaction("Click_SignUp");
 	
 			web_add_auto_header("Sec-Fetch-Dest", 
 				"frame");
@@ -2651,8 +2654,7 @@ Action()
 		
 			web_add_auto_header("Sec-Fetch-Site", 
 				"same-origin");
-		
-			lr_think_time(21);
+			
 			
 			web_reg_find("Text/IC=User Information",
 		"LAST");
@@ -2668,10 +2670,13 @@ Action()
 				"Mode=HTML", 
 				"LAST");
 		
-		lr_end_transaction("ClickSignUp",2);
+		lr_end_transaction("Click_SignUp",2);
+		
+		
+		lr_think_time(5);
 		
 	
-			lr_start_transaction("CreateNewProfile");
+		lr_start_transaction("CreateNewProfile");
 		
 			web_add_header("Origin", 
 				"http://localhost:1080");
@@ -2681,8 +2686,7 @@ Action()
 		
 			web_add_auto_header("Upgrade-Insecure-Requests", 
 				"1");
-		
-			lr_think_time(12);
+			
 			
  
  
@@ -2709,15 +2713,17 @@ Action()
 				"LAST");
 		
 		lr_end_transaction("CreateNewProfile",2);
+		
+		
+		lr_think_time(5);
+		
 	
-		lr_start_transaction("next_page");
+		lr_start_transaction("nextPage");
 	
 			(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
 		
 			(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
-		
-			lr_think_time(28);
-			
+					
 			
 			web_reg_find("Text/IC= User has returned to the home page",
 		"LAST");
@@ -2733,9 +2739,14 @@ Action()
 				"Mode=HTML", 
 				"LAST");
 		
-		lr_end_transaction("next_page",2);
+		lr_end_transaction("nextPage",2);
+		
+		
+		lr_think_time(5);
+		
+		
 	
-		lr_start_transaction("logout");
+		lr_start_transaction("Logout");
 	
 			web_add_header("Sec-Fetch-User", 
 				"?1");
@@ -2743,7 +2754,7 @@ Action()
 			web_add_header("Upgrade-Insecure-Requests", 
 				"1");
 		
-			lr_think_time(52);
+			
 			
 			web_reg_find("Text/IC=A Session ID has been created",
 		"LAST");
@@ -2758,7 +2769,7 @@ Action()
 				"Mode=HTML", 
 				"LAST");
 	
-		lr_end_transaction("logout",2);
+		lr_end_transaction("Logout",2);
 	
 	lr_end_transaction("01_UserRegistration", 2);
 

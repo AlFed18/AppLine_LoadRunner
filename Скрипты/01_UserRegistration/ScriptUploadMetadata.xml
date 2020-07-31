@@ -18,6 +18,7 @@
     <FileEntry Name="city.dat" Filter="2" />
     <FileEntry Name="passConf.dat" Filter="2" />
     <FileEntry Name="Watches.xml" Filter="2" />
+    <FileEntry Name="street.dat" Filter="2" />
     <FileEntry Name="combined_01_UserRegistration.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="01_UserRegistration.c.pickle" Filter="1" />
@@ -25,6 +26,8 @@
     <FileEntry Name="01_UserRegistration.prm.bak" Filter="1" />
     <FileEntry Name="01_UserRegistration.sdf" Filter="1" />
     <FileEntry Name="131186991440.idx" Filter="1" />
+    <FileEntry Name="13118699144_6Uf.977.idx" Filter="1" />
+    <FileEntry Name="13118699144_GJB.291.idx" Filter="1" />
     <FileEntry Name="152887184440.idx" Filter="1" />
     <FileEntry Name="25942648440.idx" Filter="1" />
     <FileEntry Name="36716642440.idx" Filter="1" />
@@ -35,6 +38,11 @@
     <FileEntry Name="data.zip" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvidm.61.log" Filter="1" />
+    <FileEntry Name="mdrvJG7.139.log" Filter="1" />
+    <FileEntry Name="mdrvmOg.697.log" Filter="1" />
+    <FileEntry Name="mdrvQ45.271.log" Filter="1" />
+    <FileEntry Name="mdrvvTg.773.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
