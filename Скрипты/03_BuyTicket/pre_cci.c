@@ -2597,7 +2597,6 @@ vuser_init()
 Action()
 {
 	lr_start_transaction("03_BuyTicket");
-
 	
 		lr_start_transaction("OpenSite");
 	
@@ -2617,11 +2616,9 @@ Action()
 		
 			web_add_auto_header("Upgrade-Insecure-Requests", 
 				"1");
-			
-			
+						
 			web_reg_find("Text/IC= A Session ID has been created ",
 		"LAST");
-
 		
 		 
  
@@ -2635,32 +2632,27 @@ Action()
  
  
  
-		
-		web_reg_save_param_ex(
-		"ParamName=userSession",
-		"LB=name=\"userSession\" value=\"",
-		"RB=\"/>",
-		"Ordinal=1",
-		"SEARCH_FILTERS",
-		"LAST");
-
-		
-
-	web_url("WebTours", 
-				"URL=http://localhost:1080/WebTours/", 
-				"TargetFrame=", 
-				"Resource=0", 
-				"RecContentType=text/html", 
-				"Referer=", 
-				"Snapshot=t1.inf", 
-				"Mode=HTML", 
-				"LAST");
+			web_reg_save_param_ex(
+			"ParamName=userSession",
+			"LB=name=\"userSession\" value=\"",
+			"RB=\"/>",
+			"Ordinal=1",
+			"SEARCH_FILTERS",
+			"LAST");
+	
+			web_url("WebTours", 
+						"URL=http://localhost:1080/WebTours/", 
+						"TargetFrame=", 
+						"Resource=0", 
+						"RecContentType=text/html", 
+						"Referer=", 
+						"Snapshot=t1.inf", 
+						"Mode=HTML", 
+						"LAST");
 			
 		lr_end_transaction("OpenSite", 2);
-		
-		
-		lr_think_time(5);
-		
+				
+		lr_think_time(5);		
 	
 		lr_start_transaction("Login");
 	
@@ -2676,12 +2668,9 @@ Action()
 		
 			web_add_auto_header("Sec-Fetch-Site", 
 				"same-origin");
-			
-			
+						
 			web_reg_find("Text/IC=User password was correct",
-		"LAST");
-
-			
+		"LAST");			
 		
 			web_submit_data("login.pl",
 		"Action=http://localhost:1080/cgi-bin/login.pl",
@@ -2701,11 +2690,9 @@ Action()
 		"LAST");
 	
 		lr_end_transaction("Login",2);
-		
-		
+				
 		lr_think_time(5);
-		
-	
+			
 		lr_start_transaction("Click_Flights");
 	
 			web_add_auto_header("Sec-Fetch-User", 
@@ -2713,11 +2700,9 @@ Action()
 		
 			web_add_auto_header("Upgrade-Insecure-Requests", 
 				"1");
-		
-		
+				
 			web_reg_find("Text/IC=Flight Selections",
 		"LAST");
-
 		
 			web_url("Search Flights Button", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
@@ -2730,61 +2715,60 @@ Action()
 				"LAST");
 		
 			lr_end_transaction("Click_Flights",2);
-			
-			
-		
-			lr_think_time(5);
-			
-			
+							
+			lr_think_time(5);						
 		
 			lr_start_transaction("Insert_FlightInfo");
 		
 				web_add_auto_header("Origin", 
 					"http://localhost:1080");
-			
+							
+				web_reg_find("Text/IC=Flight Selections",
+			"LAST");
 				
-				
-			
 			 
-	web_reg_save_param_attrib(
-		"ParamName=outboundFlight",
-		"TagName=input",
-		"Extract=value",
-		"Name=outboundFlight",
-		"Type=radio",
-		"SEARCH_FILTERS",
-		"IgnoreRedirections=No",
-		"LAST");
-
-	web_submit_data("reservations.pl", 
-					"Action=http://localhost:1080/cgi-bin/reservations.pl", 
-					"Method=POST", 
-					"TargetFrame=", 
-					"RecContentType=text/html", 
-					"Referer=http://localhost:1080/cgi-bin/reservations.pl?page=welcome", 
-					"Snapshot=t4.inf", 
-					"Mode=HTML", 
-					"ITEMDATA", 
-					"Name=advanceDiscount", "Value=0", "ENDITEM", 
-					"Name=depart", "Value={departCity}", "ENDITEM", 
-					"Name=departDate", "Value={departDate}", "ENDITEM", 
-					"Name=arrive", "Value={arriveCity}", "ENDITEM", 
-					"Name=returnDate", "Value={returnDate}", "ENDITEM", 
-					"Name=numPassengers", "Value={numPassengers}", "ENDITEM", 
-					"Name=seatPref", "Value={seatPref}", "ENDITEM", 
-					"Name=seatType", "Value={seatType}", "ENDITEM", 
-					"Name=findFlights.x", "Value=69", "ENDITEM", 
-					"Name=findFlights.y", "Value=9", "ENDITEM", 
-					"Name=.cgifields", "Value=roundtrip", "ENDITEM", 
-					"Name=.cgifields", "Value=seatType", "ENDITEM", 
-					"Name=.cgifields", "Value=seatPref", "ENDITEM", 
-					"LAST");
+		web_reg_save_param_attrib(
+			"ParamName=outboundFlight",
+			"TagName=input",
+			"Extract=value",
+			"Name=outboundFlight",
+			"Type=radio",
+			"SEARCH_FILTERS",
+			"IgnoreRedirections=No",
+			"LAST");
+	
+		web_submit_data("reservations.pl", 
+						"Action=http://localhost:1080/cgi-bin/reservations.pl", 
+						"Method=POST", 
+						"TargetFrame=", 
+						"RecContentType=text/html", 
+						"Referer=http://localhost:1080/cgi-bin/reservations.pl?page=welcome", 
+						"Snapshot=t4.inf", 
+						"Mode=HTML", 
+						"ITEMDATA", 
+						"Name=advanceDiscount", "Value=0", "ENDITEM", 
+						"Name=depart", "Value={departCity}", "ENDITEM", 
+						"Name=departDate", "Value={departDate}", "ENDITEM", 
+						"Name=arrive", "Value={arriveCity}", "ENDITEM", 
+						"Name=returnDate", "Value={returnDate}", "ENDITEM", 
+						"Name=numPassengers", "Value={numPassengers}", "ENDITEM", 
+						"Name=seatPref", "Value={seatPref}", "ENDITEM", 
+						"Name=seatType", "Value={seatType}", "ENDITEM", 
+						"Name=findFlights.x", "Value=69", "ENDITEM", 
+						"Name=findFlights.y", "Value=9", "ENDITEM", 
+						"Name=.cgifields", "Value=roundtrip", "ENDITEM", 
+						"Name=.cgifields", "Value=seatType", "ENDITEM", 
+						"Name=.cgifields", "Value=seatPref", "ENDITEM", 
+						"LAST");
 	
 		lr_end_transaction("Insert_FlightInfo",2);
-	
+		
 		lr_think_time(5);
 	
-		lr_start_transaction("Choose_Flight");
+		lr_start_transaction("Choose_Flight");		
+		
+			web_reg_find("Text/IC=Flight Reservation",
+		"LAST");
 	
 			web_submit_data("reservations.pl_2",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl",
@@ -2804,13 +2788,9 @@ Action()
 		"Name=reserveFlights.y", "Value=6", "ENDITEM",
 		"LAST");
 	
-		lr_end_transaction("Choose_Flight",2);
+		lr_end_transaction("Choose_Flight",2);		
 		
-		
-		
-		lr_think_time(5);
-		
-		
+		lr_think_time(5);		
 	
 		lr_start_transaction("Insert_PaymentDetails");
 	
@@ -2825,6 +2805,13 @@ Action()
 		
 			
 			web_reg_find("Text/IC=Reservation Made!",
+		"LAST");
+			
+ 
+ 
+
+	web_reg_find("Fail=NotFound",
+		"Text/IC={departCity}  for {arriveCity}",
 		"LAST");
 
 		
@@ -2858,11 +2845,9 @@ Action()
 		"Name=.cgifields", "Value=saveCC", "ENDITEM",
 		"LAST");
 	
-		lr_end_transaction("Insert_PaymentDetails",2);
+		lr_end_transaction("Insert_PaymentDetails",2);	
 		
-		
-		lr_think_time(5);
-		
+		lr_think_time(5);		
 	
 		lr_start_transaction("Click_Itinerary");
 	
@@ -2871,9 +2856,16 @@ Action()
 	
 		web_add_auto_header("Upgrade-Insecure-Requests", 
 			"1");
-		
-	
+			
 		web_reg_find("Text/IC= User wants the intineraries",
+		"LAST");
+
+		web_reg_save_param_ex(
+		"ParamName=FlightsId",
+		"LB=name=\"flightID\" value=\"",
+		"RB=\"  />",
+		"Ordinal=ALL",
+		"SEARCH_FILTERS",
 		"LAST");
 
 		
@@ -2887,21 +2879,19 @@ Action()
 			"Snapshot=t7.inf", 
 			"Mode=HTML", 
 			"LAST");
-	
-		lr_end_transaction("Click_Itinerary",2);
 		
+		lr_output_message(lr_eval_string("{FlightsId}_count"));
+
+		lr_end_transaction("Click_Itinerary",2);		
 		
-		lr_think_time(5);
-		
+		lr_think_time(5);		
 	
 		lr_start_transaction("Logout");
 	
-			(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
-			
+			(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));			
 		
 			web_reg_find("Text/IC=Web Tours Navigation Bar",
 		"LAST");
-
 		
 			web_url("SignOff Button", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
