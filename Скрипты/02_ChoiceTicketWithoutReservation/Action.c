@@ -19,12 +19,10 @@ Action()
 				"?1");
 		
 			web_add_auto_header("Upgrade-Insecure-Requests", 
-				"1");
-			
+				"1");			
 			
 			web_reg_find("Text/IC=A Session ID has been created",
 		LAST);
-
 		
 			web_url("WebTours", 
 				"URL=http://localhost:1080/WebTours/", 
@@ -37,10 +35,8 @@ Action()
 				LAST);
 		
 		lr_end_transaction("OpenSite", LR_AUTO);
-
 		
-		lr_think_time(5);
-		
+		lr_think_time(5);		
 	
 		lr_start_transaction("Click_SignUp");
 	
@@ -68,10 +64,8 @@ Action()
 				LAST);
 	
 		lr_end_transaction("Click_SignUp",LR_AUTO);
-		
-		
-		lr_think_time(5);
-		
+				
+		lr_think_time(5);		
 	
 		lr_start_transaction("CreateNewProfile");
 	
@@ -86,7 +80,6 @@ Action()
 		
 			web_reg_find("Text/IC=User Information",
 		LAST);
-
 		
 			web_submit_data("login.pl", 
 				"Action=http://localhost:1080/cgi-bin/login.pl", 
@@ -108,19 +101,16 @@ Action()
 				"Name=register.y", "Value=5", ENDITEM, 
 				LAST);
 	
-		lr_end_transaction("CreateNewProfile",LR_AUTO);
-		
+		lr_end_transaction("CreateNewProfile",LR_AUTO);		
 		
 		lr_think_time(5);	
-		
-	
+			
 		lr_start_transaction("nextPage");
 	
 			web_revert_auto_header("Sec-Fetch-User");
 		
 			web_revert_auto_header("Upgrade-Insecure-Requests");
-			
-			
+						
 			web_reg_find("Text/IC= User has returned to the home page",
 		LAST);
 				
@@ -134,12 +124,10 @@ Action()
 				"Mode=HTML", 
 				LAST);
 	
-		lr_end_transaction("nextPage",LR_AUTO);
-		
+		lr_end_transaction("nextPage",LR_AUTO);		
 		
 		lr_think_time(5);
-		
-	
+			
 		lr_start_transaction("Click_Flights");
 	
 			web_add_auto_header("Sec-Fetch-User", 
@@ -148,11 +136,8 @@ Action()
 			web_add_auto_header("Upgrade-Insecure-Requests", 
 				"1");
 
-
 			web_reg_find("Text/IC=Search Flights Button",
-		LAST);
-
-		
+		LAST);		
 		
 			web_url("Search Flights Button", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
@@ -174,11 +159,9 @@ Action()
 	
 			web_add_header("Origin", 
 				"http://localhost:1080");
-		
-				
+						
 				web_reg_find("Text/IC=Flight Selections",
 		LAST);
-
 									
 				/*Correlation comment - Do not change!  Original value='343;673;07/26/2020' Name ='outboundFlight' Type ='ResponseBased'*/
 			web_reg_save_param_attrib(
@@ -215,15 +198,11 @@ Action()
 						"Name=.cgifields", "Value=seatPref", ENDITEM, 
 						LAST);
 			
-		lr_end_transaction("Insert_FlightInfo",LR_AUTO);
-		
+		lr_end_transaction("Insert_FlightInfo",LR_AUTO);		
 		
 		lr_think_time(5);
-		
-		
+				
 		lr_start_transaction("ChooseFlight");
-
-
 
 //		web_reg_find("Text/IC=User has returned to the search page",
 //		LAST);
