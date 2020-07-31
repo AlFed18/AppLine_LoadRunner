@@ -1,0 +1,43 @@
+Action.c(204):     f"/>\n
+Action.c(204):     <table border="0"><tr><td>&nbsp;</td>\n
+Action.c(204):     <td>&nbsp;</td></tr>\n
+Action.c(204):     <tr><td>&nbsp;</td>\n
+Action.c(204):     <td>&nbsp;</td></tr>\n
+Action.c(204):     <tr><td>&nbsp;</td>\n
+Action.c(204):     <td><small>&nbsp;Username</small></td></tr>\n
+Action.c(204):     <tr><td>&nbsp;</td>\n
+Action.c(204):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+Action.c(204):     <tr><td>&nbsp;</td>\n
+Action.c(204):     <td><small>&nbsp;Password</small></td>\n
+Action.c(204):     <tr><td>&nbsp;</td>\n
+Action.c(204):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+Action.c(204):     <tr><td>&nbsp;</td>\n
+Action.c(204):     <td>&nbsp;</td></tr>\n
+Action.c(204):     <tr><td>&nbsp;</td>\n
+Action.c(204):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+Action.c(204):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+Action.c(204):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+Action.c(204):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+Action.c(204):     </form>\n
+Action.c(204):     \n
+Action.c(204):     </body>\n
+Action.c(204):     </html>\n
+Action.c(204): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(204): t=88679ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=103)
+Action.c(204):     0\r\n
+Action.c(204):     \r\n
+Action.c(204): t=88680ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+Action.c(204): Registered web_reg_find successful for "Text=Web Tours Navigation Ba" (count=1)  	[MsgId: MMSG-26364]
+Action.c(204): web_url("SignOff Button") was successful, 2176 body bytes, 583 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(214): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1024 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+Action.c(216): Notify: Transaction "05_DeleteReservation" ended with a "Pass" status (Duration: 20,5548 Think Time: 20,0029 Wasted Time: 0,0009).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=88681ms: Closed connection [0] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+t=88681ms: Closed connection [1] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=9, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 1 (thread 7920), ended OK."	[MsgId: MMSG-10695]

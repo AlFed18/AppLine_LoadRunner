@@ -47,9 +47,7 @@ Action()
 		"RB=\"/>",
 		"Ordinal=1",
 		SEARCH_FILTERS,
-		LAST);
-
-		
+		LAST);		
 
 	web_url("WebTours", 
 				"URL=http://localhost:1080/WebTours/", 
@@ -62,11 +60,9 @@ Action()
 				LAST);
 		
 		lr_end_transaction("OpenSite", LR_AUTO);
-		
-		
+			
 		lr_think_time(5);
-		
-	
+			
 		lr_start_transaction("Login");
 	
 			web_revert_auto_header("Sec-Fetch-User");
@@ -80,14 +76,11 @@ Action()
 				"http://localhost:1080");
 		
 			web_add_auto_header("Sec-Fetch-Site", 
-				"same-origin");
-			
+				"same-origin");			
 		
 			web_reg_find("Text/IC=User password was correct",
 		LAST);
-
-					
-		
+							
 			web_submit_data("login.pl",
 		"Action=http://localhost:1080/cgi-bin/login.pl",
 		"Method=POST",
@@ -106,10 +99,8 @@ Action()
 		LAST);
 	
 		lr_end_transaction("Login",LR_AUTO);
-		
-		
-		lr_think_time(5);
-		
+				
+		lr_think_time(5);		
 	
 		lr_start_transaction("Click_Itinerary");
 	
@@ -117,12 +108,10 @@ Action()
 				"?1");
 		
 			web_add_auto_header("Upgrade-Insecure-Requests", 
-				"1");
-					
+				"1");					
 			
 			web_reg_find("Text/IC=User wants the intineraries",
 		LAST);
-
 		
 		/*Correlation comment - Do not change!  Original value='42687-1163251-GM' Name ='flightID' Type ='ResponseBased'*/
 		web_reg_save_param_attrib(
@@ -135,8 +124,7 @@ Action()
 			"IgnoreRedirections=No",
 			"RequestUrl=*/itinerary.pl*",
 			LAST);
-		
-	
+			
 
 	web_url("Itinerary Button", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
@@ -148,24 +136,17 @@ Action()
 				"Mode=HTML", 
 				LAST);
 	
-		lr_end_transaction("Click_Itinerary",LR_AUTO);
-		
-		
+		lr_end_transaction("Click_Itinerary",LR_AUTO);			
 		
 		lr_think_time(5);
-		
-	
+			
 		lr_start_transaction("DeleteReservation");
 	
 			web_add_header("Origin", 
-				"http://localhost:1080");
-		
-		
+				"http://localhost:1080");		
 		
 			web_reg_find("Text/IC=Flights List",
 		LAST);
-
-		
 		
 			web_submit_data("itinerary.pl",
 		"Action=http://localhost:1080/cgi-bin/itinerary.pl",
@@ -183,23 +164,19 @@ Action()
 		"Name=.cgifields", "Value=1", ENDITEM,
 		LAST);
 	
-		lr_end_transaction("DeleteReservation",LR_AUTO);
+		lr_end_transaction("DeleteReservation",LR_AUTO);		
 		
-		
-		lr_think_time(5);
-		
+		lr_think_time(5);		
 	
 		lr_start_transaction("Logout");
 	
 			web_revert_auto_header("Sec-Fetch-User");
 		
 			web_add_header("Sec-Fetch-User", 
-				"?1");
-		
+				"?1");		
 			
 			web_reg_find("Text/IC=Web Tours Navigation Ba",
 		LAST);
-
 		
 			web_url("SignOff Button", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
