@@ -216,9 +216,9 @@ Action()
 //			web_reg_find("Text/IC={departCity}  for {arriveCity}",
 //		LAST);
 
-	web_reg_find("Fail=NotFound",
-		"Text/IC={departCity}  for {arriveCity}",
-		LAST);
+		web_reg_find("Fail=NotFound",
+			"Text/IC={departCity}  for {arriveCity}",
+			LAST);
 
 		
 			web_submit_data("reservations.pl_3",
@@ -286,7 +286,7 @@ Action()
 			"Mode=HTML", 
 			LAST);
 		
-		lr_output_message(lr_eval_string("{FlightsId}_count"));
+		lr_output_message(lr_eval_string("{FlightsId_count}"));
 
 		lr_end_transaction("Click_Itinerary",LR_AUTO);		
 		

@@ -1,10 +1,10 @@
-[parameter:arrivalCity]
+[parameter:arriveCity]
 ColumnName="Col 2"
 Delimiter=","
 GenerateNewVal="EachIteration"
 OriginalValue=""
 OutOfRangePolicy="ContinueWithLast"
-ParamName="arrivalCity"
+ParamName="arriveCity"
 SelectNextRow="Same line as departCity"
 StartRow="1"
 Table="departCity.dat"

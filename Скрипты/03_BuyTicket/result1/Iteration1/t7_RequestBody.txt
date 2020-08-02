@@ -1,4 +1,4 @@
 "firstName=Genry&lastName=Jonson&address1=Green&address2=Denver&pass1=Genry+Jonson&creditCard=5"
-"289+0077+1598+0872&expDate=08%2F21&saveCC=on&oldCCOption=&numPassengers=4&seatType=First&seatP"
-"ref=None&outboundFlight=010%3B723%3B08%2F01%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmi"
-"t=off&buyFlights.x=54&buyFlights.y=11&.cgifields=saveCC"
+"289+0077+1598+0856&expDate=09%2F20&saveCC=on&oldCCOption=&numPassengers=3&seatType=Coach&seatP"
+"ref=Aisle&outboundFlight=340%3B438%3B08%2F03%2F2020&advanceDiscount=0&returnFlight=&JSFormSubm"
+"it=off&buyFlights.x=54&buyFlights.y=11&.cgifields=saveCC"

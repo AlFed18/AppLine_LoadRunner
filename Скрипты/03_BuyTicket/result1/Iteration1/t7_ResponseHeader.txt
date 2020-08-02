@@ -1,8 +1,8 @@
 HTTP/1.1 200 OK
-Date: Fri, 31 Jul 2020 17:41:22 GMT
+Date: Sun, 02 Aug 2020 08:05:44 GMT
 Server: Apache/2.2.21 (Win32)
-Expires: Thu, 30 Jul 2020 17:41:22 GMT
-Set-Cookie: MTUserInfo=firstName&Genry&username&genry&address2&Denver&hash&57&expDate&08%2F21&creditCard&5289%200077%201598%200872&address1&First&lastName&Jonson%0A; path=/
+Expires: Sat, 01 Aug 2020 08:05:44 GMT
+Set-Cookie: MTUserInfo=firstName&Genry&username&genry&address2&Denver&hash&57&expDate&09%2F20&creditCard&5289%200077%201598%200856&address1&First&lastName&Jonson%0A; path=/
 Keep-Alive: timeout=5, max=90
 Connection: Keep-Alive
 Transfer-Encoding: chunked
