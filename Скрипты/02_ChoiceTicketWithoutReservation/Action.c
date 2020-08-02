@@ -204,8 +204,8 @@ Action()
 				
 		lr_start_transaction("ChooseFlight");
 
-//		web_reg_find("Text/IC=User has returned to the search page",
-//		LAST);
+		web_reg_find("Text/IC=Flight Reservation",
+		LAST);
 //		не получается выставить проверку для запроса ниже
 	
 		web_submit_data("reservations.pl_2",
